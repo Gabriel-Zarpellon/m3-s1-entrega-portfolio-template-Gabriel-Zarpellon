@@ -1,0 +1,38 @@
+.footerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-top: 1px solid var(--white-color);
+  border-bottom: 1px solid var(--white-color);
+  padding-block: 3rem;
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.footerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footerBox p {
+  text-align: center;
+}
+
+@media (min-width: 950px) {
+  .footerBox {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footerIcons {
+    justify-content: flex-start;
+  }
+}

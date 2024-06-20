@@ -1,0 +1,21 @@
+.bannerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.bannerLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerParagraph {
+  margin-block: 2rem;
+}
+
+@media (min-width: 950px) {
+  .bannerBox {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,9 @@
+.techCard {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  height: 5.375rem;
+  border: 1px solid var(--white-color);
+  border-radius: 1.5625rem;
+}

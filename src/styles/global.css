@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #6880ff;
+  --primary-color-hover: #7c91ff;
+  --black-color: #000;
+  --white-color: #fff;
+  --link-color: #7b61ff;
+  --background-color: #0c0c0c;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Inter", sans-serif;
+}
+

@@ -1,0 +1,20 @@
+.aboutMeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3.875rem;
+}
+
+@media (min-width: 950px) {
+  .aboutMeBox {
+    flex-direction: row;
+  }
+
+  .aboutSectionTitle {
+    width: 45%;
+  }
+
+  .aboutSectionParagraph {
+    width: 100%;
+  }
+}

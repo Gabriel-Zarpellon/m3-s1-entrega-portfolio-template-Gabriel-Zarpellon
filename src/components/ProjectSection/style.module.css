@@ -1,0 +1,18 @@
+.projectBox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 3.875rem;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 950px) {
+  .projectList {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
