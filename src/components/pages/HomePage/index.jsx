@@ -2,7 +2,7 @@ import { BannerSection } from "../../BannerSection";
 import { AboutMeSection } from "../../AboutMeSection";
 import { TechSection } from "../../TechSection";
 import { ProjectSection } from "../../ProjectSection";
-import { PageTemplate } from "../../PageTemplate";
+import { PageTemplate } from "../../Templates/PageTemplate";
 
 export function HomePage() {
   return (
